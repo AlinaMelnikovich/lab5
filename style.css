@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #60A3DB;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.wrapper {/*центр*/
+    width: 90%;
+    min-width: 960px;
+    max-width: 1360px;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+header, nav{/*шапка*/
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    display: flex;
+}
+
+ul, li {/*style color*/
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+}
+
+li a {
+    width:100%;
+    height: 100%;
+    text-decoration: none;
+    border-right: 1px solid black;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: 1s all;
+}
+a:hover {
+    background-color: aqua;
+}
+li a:last-child {
+    border-right: none;
+}
+.topNubex {/*кнопка вверх*/
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
